@@ -12,8 +12,9 @@ body {
   border-radius: 5px;
   font-weight: 400;
   font-size: 20px;
-  padding: 0.75rem 0.5rem;
+  padding: 0.75rem 1rem;
   border-radius: 35px;
+  width: fit-content;
 }
 
 .d-flex {
@@ -26,10 +27,50 @@ body {
   margin-left: 1rem;
   width: 100%;
 }
+.w-100 {
+  width: 100%;
+}
+.jc-center {
+  justify-content: center;
+}
 
 .c-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+
+.heading {
+  font-family: "Clash Display", sans-serif;
+  font-size: 3rem;
+}
+
+.d-col {
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.blur {
+  background: #2a3e84;
+  border-radius: 50%;
+  -webkit-filter: blur(150px);
+  filter: blur(150px);
+  position: absolute;
+  z-index: -9;
+}
+
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.02);
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }

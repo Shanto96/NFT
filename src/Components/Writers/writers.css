@@ -1,0 +1,10 @@
+.writers {
+  color: #fff;
+  gap: 2rem;
+  align-items: center;
+}
+
+.writer-items {
+  justify-content: center;
+  gap: 2rem;
+}
