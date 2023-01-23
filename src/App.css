@@ -3,6 +3,7 @@ body {
   background: #080b2a;
   --highlight: #15bffd;
   font-family: "Inter", sans-serif;
+  color: #fff;
 }
 
 .border-btn {
@@ -42,7 +43,8 @@ body {
 }
 
 .heading {
-  font-family: "Clash Display", sans-serif;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
   font-size: 3rem;
 }
 

@@ -16,8 +16,8 @@
   );
   border-image: linear-gradient(to right, #158cc1, #833ad9);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.08);
-  backdrop-filter: blur(5.8px);
-  -webkit-backdrop-filter: blur(5.8px);
+  backdrop-filter: blur(0.8px);
+  -webkit-backdrop-filter: blur(0.8px);
 
   border-image-slice: 1;
 }

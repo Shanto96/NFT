@@ -1,11 +1,17 @@
 import React from "react";
 import Writer from "../Writer/Writer";
+import BlueStar from "../BlueStar/BlueStar";
 import "./writers.css";
 function writers() {
   return (
     <div className="writers d-flex d-col">
+      <div className="blur"></div>
+      <BlueStar />
+      <BlueStar />
+      <BlueStar />
+
       <div className="au-info">
-        <span className="heading">Live Auction</span>
+        <span className="heading">Top Collections</span>
         <br />
         <span>
           The largest and unique Super rare NFT marketplace For

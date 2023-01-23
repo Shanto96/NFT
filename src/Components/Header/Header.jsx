@@ -8,7 +8,7 @@ import { BsArrowBarUp } from "react-icons/bs";
 export default function Header() {
   return (
     <div className="header d-flex">
-      <div className="logo-container">
+      <div className="h-logo-container">
         <img src={Logo} alt="" />
       </div>
       <div className="nav">
