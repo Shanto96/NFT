@@ -6,7 +6,7 @@ import Eth from "../../../img/ethereum.png";
 function Creator() {
   return (
     <div className="creator  d-flex">
-      <img src={User} className="user" alt="" />
+      <img src={User} className="cr-user" alt="" />
       <div className="creator-info d-flex d-col">
         <span className="creator-name">Emerson Philips</span>
         <span>

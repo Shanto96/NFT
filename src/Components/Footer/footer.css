@@ -69,3 +69,29 @@
   font-family: "Kanit", sans-serif;
   font-weight: 200;
 }
+
+.footer-container > :nth-child(2) {
+  top: 2rem;
+  left: 2rem;
+  transform: scale(1.6);
+  z-index: 4;
+}
+
+.footer-container > :nth-child(3) {
+  top: 5rem;
+  left: 40%;
+  transform: scale(1.6);
+  z-index: 4;
+}
+.footer-container > :nth-child(4) {
+  top: 7rem;
+  right: 40%;
+  transform: scale(1.6);
+  z-index: 4;
+}
+.footer-container > :nth-child(5) {
+  width: 20%;
+  height: 20%;
+  left: 0%;
+  top: -2%;
+}

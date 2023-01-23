@@ -5,12 +5,18 @@ import { FaFacebookF } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { MdOutlineCopyright } from "react-icons/md";
+import BlueStar from "../BlueStar/BlueStar";
 function Footer() {
   return (
     <div className="footer-container relative">
       <div className="absolute glass ab-glass"></div>
+      <BlueStar />
 
-      <div className="footer d-flex">
+      <BlueStar />
+      <BlueStar />
+      <div className="blur"></div>
+
+      <div className="footer d-flex relative">
         <div className="logo-container">
           <img src={Logo} alt="" className="f-logo" />
           <span className="footer-text">
