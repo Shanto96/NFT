@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <div className="header d-flex">
       <div className="h-logo-container">
-        <img src={Logo} alt="" />
+        <img src={Logo} alt="" className="header-logo" />
       </div>
       <div className="nav">
         <ul>
@@ -20,9 +20,9 @@ export default function Header() {
           <li>How it Work</li>
         </ul>
       </div>
-      <div className="button-container d-flex">
+      <div className="button-container h-btn d-flex">
         <CiSearch size={"2rem"} />
-        <button className="btn border-btn">Connect Wallet</button>
+        <button className="btn border-btn h-btn">Connect Wallet</button>
         <div className="e-wraper">
           <BsArrowBarUp className="" size={"1.5rem"} />
         </div>

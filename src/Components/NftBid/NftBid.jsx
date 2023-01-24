@@ -5,7 +5,7 @@ import Nft1 from "../../img/nft1.jpeg";
 
 function NftBid() {
   return (
-    <div className="h-crypto-container">
+    <div className="h-crypto-container a-crypto-container">
       <div className="crypto-container-info">
         <div className="title d-flex">
           <div className="info d-flex d-col">

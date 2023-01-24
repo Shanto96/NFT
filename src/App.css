@@ -86,7 +86,7 @@ body {
   }
 
   .h-left > * {
-    transform: scale(0.8);
+    transform: scale(0.65);
     height: max-content;
   }
 
@@ -94,20 +94,107 @@ body {
     transform: scale(0.55);
   }
   .h-crypto-container {
-    margin-left: -2rem;
+    margin-left: -3rem;
   }
   .h-right {
     width: 100%;
   }
 
+  .about {
+    flex-direction: column-reverse;
+  }
+  .about > * {
+    transform: scale(0.8);
+  }
+
+  .auction-items {
+    flex-direction: column;
+    gap: 0rem !important;
+    align-items: center;
+  }
+  .a-crypto-container {
+    transform: scale(0.75);
+    margin-left: 0px !important;
+  }
+  .au-info {
+    transform: scale(0.8);
+  }
   .second-crypto {
-    transform: rotate(18deg);
     position: absolute;
-    /* left: 20rem; */
-    /* top: 8rem; */
-    transform: scale(0.55) rotate(18deg);
-    right: -2rem;
-    top: 3rem;
+    transform: scale(0.55) rotate(18deg) !important;
+    right: 0rem !important;
+    top: 3rem !important;
+    left: 9rem !important;
+  }
+  .event-container {
+    flex-direction: column;
+  }
+  .event,
+  .r-event {
+    transform: scale(0.7);
+  }
+  .writer-items {
+    flex-direction: column;
+  }
+  .writer {
+    transform: scale(0.8);
+  }
+  .creator {
+    transform: scale(0.8);
+  }
+  .footer {
+    flex-direction: column;
+  }
+
+  .header-logo {
+    transform: scale(0.4);
+  }
+  .nav {
+    display: none;
+  }
+  .button-container > * {
+    transform: scale(0.8);
+  }
+  .h-btn {
+    font-size: 14px;
+    padding: 0.25rem;
+  }
+  .h-logo-container {
+    flex: 1;
+  }
+  .button-container {
+    flex: 2;
+  }
+  .e-wraper {
+    transform: scale(0.8);
+  }
+  .h-left h2 {
+    font-size: 60px !important;
+    text-align: center;
+  }
+  .r-logo {
+    right: 7rem !important;
+    bottom: 18rem;
+    transform: scale(0.8);
+    top: auto !important ;
+  }
+  .line {
+    transform: scale(0.5);
+    top: auto !important;
+    bottom: -2rem;
+    left: -2rem;
+    right: auto !important;
+  }
+  .astar1 {
+    left: auto !important;
+    right: 2rem;
+  }
+  .blur2 {
+    right: 0rem !important;
+    bottom: 20rem;
+  }
+  img {
+    max-width: 100%;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
