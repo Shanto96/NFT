@@ -198,10 +198,81 @@ body {
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
+.d-tab {
+  display: none;
+}
 @media only screen and (min-width: 600px) {
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .hero > * {
+    transform: scale(0.8);
+  }
+
+  .about > * {
+    transform: scale(0.8);
+  }
+  .h-crypto-container {
+    transform: scale(0.7);
+    margin-left: -5rem;
+  }
+  .second-crypto {
+    transform: scale(0.7) rotate(31deg) !important;
+    left: 6rem !important;
+    top: 11rem !important;
+  }
+  .line {
+    transform: scale(0.5);
+    right: -8rem !important;
+    top: 3rem !important;
+  }
+  .blur2 {
+    right: 0 !important;
+    transform: scale(0.8);
+  }
+  .a-crypto-container {
+    margin-left: 0px !important;
+    transform: scale(1) !important;
+  }
+  .auction-items {
+    flex-wrap: wrap;
+  }
+  .creator {
+    width: 300px !important;
+  }
+  .writer-items {
+    flex-wrap: wrap;
+  }
+  .event-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .d-tab {
+    display: block;
+  }
+  .center-line {
+    display: none;
+  }
+  .left-bar {
+    display: block;
+    width: 4px;
+    height: 100%;
+    background: #833ad9;
+    right: -30%;
+  }
+  .right-bar {
+    display: block;
+    width: 4px;
+    height: 100%;
+    background: #833ad9;
+    left: -30%;
+  }
+  .nav {
+    font-size: 10px;
+  }
+  .button-container > * {
+    transform: scale(0.75);
+  }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
