@@ -204,7 +204,7 @@ body {
 @media only screen and (min-width: 600px) {
 }
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero > * {
     transform: scale(0.8);
   }
@@ -232,10 +232,11 @@ body {
   }
   .a-crypto-container {
     margin-left: 0px !important;
-    transform: scale(1) !important;
+    transform: scale(0.9) !important;
   }
   .auction-items {
     flex-wrap: wrap;
+    gap: 0.25rem;
   }
   .creator {
     width: 300px !important;
